@@ -4,7 +4,7 @@
   
     return (  
         <View>
-         <Text> MInha primeira tela</Text>
+         <Text style={{color: '#fff'}}> Minha primeira tela</Text>
 
         </View>
        );
