@@ -12,7 +12,7 @@ export default function App() {
   return (
     <View style={styles.container}> 
       
-     <Exemplo_0/ > 
+     <Exemplo_0/> 
     
       <StatusBar style="auto" />
     </View>
