@@ -6,7 +6,8 @@ import styles from './style';
   
     return (  
         <View style={styles.components}>
-         <Text > Minha primeira tela</Text>
+         <Text style={styles.texto} > Atvidade 1</Text>
+         <Text style={styles.texto} > Marcos Daniel</Text>
 
         </View>
        );
