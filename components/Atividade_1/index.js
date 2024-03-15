@@ -7,7 +7,7 @@ import styles from './styles.js';
     return (  
         <View style={styles.components}>
          <Text style={styles.texto} > Atvidade 1</Text>
-         <Text style={styles.process} > Marcos Daniel</Text>
+         <Text style={styles.texto2} > Marcos Daniel</Text>
           <div></div>
         </View>
        );

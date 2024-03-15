@@ -3,7 +3,7 @@ import {StyleSheet} from 'react-native';
 
 const styles = StyleSheet.create ({
     components :{
-   backgroundColor:'orange',
+   backgroundColor:'#5656b3',
     padding:20,
     
     },
@@ -13,8 +13,9 @@ const styles = StyleSheet.create ({
 
 
      },
-     process :{
-        color: 'pink'
+     texto2 :{
+        color: '#b95fc7',
+        fontSize: 16,
  
 
 
