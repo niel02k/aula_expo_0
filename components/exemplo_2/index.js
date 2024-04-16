@@ -1,20 +1,20 @@
-import{View, Text} from 'react-native';
-import styles from './style';
+import{ View,Text }from 'react-native'
 
-function Exemplo_2 () {
-    return (
-    <View style={styles.container}> 
+import Mensagem from './mensagem'
 
-        <Text style={{fontSize: 30, color:'#FFF'}}>
-
-                Exemplo_2
-    
-        </Text>
-
-    </View>
-    )
+import styles from './styles';
 
 
+function Exemplo2 (){
+    return(
+        <View style={styles.container}>
+            <Text style={styles.titulo}>Exemplo2</Text>
+
+            <Mensagem nome= 'Marcos'/>
+            <Mensagem nome= 'Daniel'/>
+            <Mensagem nome= 'Niel'/>
+   
+        </View> 
+    );
 }
-
-export default Exemplo_2;
+export default Exemplo2;
