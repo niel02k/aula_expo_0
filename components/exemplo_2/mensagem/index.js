@@ -6,7 +6,7 @@ import styles from './styles';
 export default function Mensagem(nome,sobrenome) {
     return (
         <View style={styles.viewmensagem}>
-            <Text style={styles.mensagem}>{nome+sobrenome}</Text>
+            <Text style={styles.mensagem}>{`olá ${nome} ${sobrenome}`}</Text>
         </View>
     );
 }

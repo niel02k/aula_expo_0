@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 
 import Exemplo_0 from'./components/exemplo_1';
 import Exemplo2 from'./components/exemplo_2';
-import Atividade_1 from'./components/atividade_1';
+// import Atividade_1 from'./components/atividade_1';
 
 export default function App() {
   return (
