@@ -1,6 +1,6 @@
  import {View, Text} from 'react-native';
 
-import styles from './style';
+import styles from './styles';
 
  function Exemplo_0 (){
   
@@ -14,6 +14,6 @@ import styles from './style';
 
 
 
- }
+ };
 
      export default Exemplo_0 ;
