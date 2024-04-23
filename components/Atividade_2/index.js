@@ -5,10 +5,11 @@ export default function Atividade_2 (){
   return (
     <View style={styles.container}>
    <Text style={styles.titulo}> Atividade 2</Text>
-
-   <div styles={styles.divs}></div>
+         <Mensagem Time='Marcos' Jogador='Freitas'/>
+            <Mensagem Time='Daniel' Jogador='Freitas'/>
+            <Mensagem Time='Niel' Jogador=''/>
 
     </View>
   );
-};
+}
 
