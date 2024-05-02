@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
     },
   titulo:{
    fontSize: 30,
-   
+   color: ''
   },
 
   divs:{

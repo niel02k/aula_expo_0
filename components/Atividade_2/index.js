@@ -15,5 +15,5 @@ export default function Atividade_2 (){
 
     </View>
   );
-};
+};  
 
