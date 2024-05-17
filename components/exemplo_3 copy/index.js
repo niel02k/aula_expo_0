@@ -2,7 +2,7 @@ import {useState} from 'react'
 import { View, Text, Pressable } from 'react-native';
 import styles from './styles';
 
-export default function Atividade_3() {
+export default function Exemplo_3() {
 
     const [numero, setNumero]= useState(0);
 
@@ -14,9 +14,18 @@ export default function Atividade_3() {
 
         
         <View style={styles.container}>
-            <Text style={styles.titulo}> Atividade_3</Text>
+            <Text style={styles.titulo}> Exemplo 3</Text>
 
-            
+            <Pressable
+                onPress={() => alert('Oi')}
+                style={({ pressed }) =>
+                    pressed ?
+                        [styles.botao, styles.botaoPress]
+                        :
+                        styles.botao}
+            >
+                <Text style={styles.txtbotao}>Ex botao</Text>
+            </Pressable>
   <br></br>
             <Text style={styles.titulo}>Exemplo state </Text>
 
